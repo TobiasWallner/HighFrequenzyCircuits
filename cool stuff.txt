@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-icecream
-barça
-=======
-more cool stuff
-
-icecream
->>>>>>> f6d2d21c42bcd2c4d7c290f2d47d0dde66ac6a58
