@@ -216,10 +216,10 @@
 <wire x1="17.4625" y1="30.1625" x2="17.145" y2="29.845" width="0" layer="20"/>
 <wire x1="17.145" y1="29.845" x2="17.145" y2="19.3675" width="0" layer="20"/>
 <wire x1="17.145" y1="19.3675" x2="17.4625" y2="19.05" width="0" layer="20"/>
-<text x="-3.81" y="14.9225" size="0.8128" layer="48" rot="R90">Cutout between power connector and amplifier.
-The Ground and power lines shall be defined primaraly by the
-analoge DC-DC Converter.
-The Powerlines shall only connect in a star point</text>
+<text x="-25.7175" y="14.605" size="0.8128" layer="48">Cutout between power connector and amplifier.
+The Ground and power lines shall be defined 
+primaraly by the analoge DC-DC Converter. The 
+powerlines shall only connect in a single  star point</text>
 <text x="11.43" y="36.195" size="0.8128" layer="48">Starpoint of the
 power planes/lines
 to minimize potential loop area.</text>
@@ -236,6 +236,8 @@ and the ground is well defined</text>
 This will not only increase the electrical conductance, 
 but also the thermal one. Making use of both ground planes 
 and effectivelly useing them as a heat sink.</text>
+<text x="40.005" y="1.905" size="0.6096" layer="48">Use thermals around the signal connectors/pads to 
+minimize thermal coupling with other devices</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

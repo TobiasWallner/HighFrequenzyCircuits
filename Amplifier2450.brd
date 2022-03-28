@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mm"/>
+<grid distance="0.02" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -226,7 +226,7 @@ to minimize potential loop area.</text>
 <text x="11.1125" y="-4.445" size="0.6096" layer="48">Cutouts around the signal line to minimize 
 dielectric losses in the PCB material.
 According to my manufacturer clearance of &gt;0.2mm
-around cutouts is required</text>
+around cutouts is required. Currently 0.25mm is used</text>
 <text x="40.64" y="27.6225" size="0.6096" layer="48">Vias at the outer edges intended as shielding from external 
 electro magnetic fields</text>
 <text x="40.005" y="15.24" size="0.6096" layer="48">Some random vias in the middle of larger ground

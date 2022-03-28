@@ -2147,7 +2147,7 @@ design rules under a new name.</description>
 <via x="36.0934" y="28.7274" extent="1-16" drill="0.35"/>
 <via x="36.0934" y="26.8224" extent="1-16" drill="0.35"/>
 <wire x1="31.75" y1="26.67" x2="31.9024" y2="26.8224" width="0.3" layer="1"/>
-<wire x1="31.0134" y1="25.9334" x2="31.115" y2="26.035" width="0.3" layer="1"/>
+<wire x1="31.115" y1="26.035" x2="31.0134" y2="25.9334" width="0.3" layer="1"/>
 <wire x1="31.75" y1="26.0858" x2="31.75" y2="26.67" width="0.3" layer="1"/>
 <wire x1="29.7034" y1="28.5242" x2="23.202" y2="28.5242" width="0.3" layer="1"/>
 <wire x1="23.202" y1="28.5242" x2="23.1512" y2="28.575" width="0.3" layer="1"/>
@@ -2258,8 +2258,10 @@ design rules under a new name.</description>
 <wire x1="33.02" y1="25.6032" x2="27.2542" y2="25.6032" width="2" layer="1"/>
 <via x="18.415" y="32.385" extent="1-16" drill="0.35"/>
 <via x="18.415" y="30.48" extent="1-16" drill="0.35"/>
-<wire x1="31.75" y1="26.0858" x2="31.115" y2="26.035" width="0" layer="19" extent="1-1"/>
-<wire x1="31.0134" y1="24.9174" x2="31.0134" y2="25.9334" width="0" layer="19" extent="1-1"/>
+<wire x1="31.0134" y1="24.9174" x2="31.0134" y2="26.035" width="0.3" layer="1"/>
+<wire x1="31.0134" y1="26.035" x2="31.115" y2="26.035" width="0.3" layer="1"/>
+<wire x1="29.7034" y1="28.5242" x2="31.75" y2="28.5242" width="0.3" layer="1"/>
+<wire x1="31.75" y1="28.5242" x2="31.75" y2="26.67" width="0.3" layer="1"/>
 </signal>
 <signal name="+15V">
 <contactref element="IC1" pad="1"/>
@@ -2327,8 +2329,10 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="X1" pad="1"/>
-<wire x1="12.05" y1="8.89" x2="2.5654" y2="8.89" width="0.3" layer="1"/>
-<wire x1="12.05" y1="8.89" x2="8.255" y2="9.0782" width="0" layer="19" extent="1-1"/>
+<wire x1="12.05" y1="8.89" x2="8.4432" y2="8.89" width="0.3" layer="1"/>
+<wire x1="8.4432" y1="8.89" x2="8.255" y2="9.0782" width="0.3" layer="1"/>
+<wire x1="2.5654" y1="8.89" x2="8.255" y2="8.89" width="0.3" layer="1"/>
+<wire x1="8.255" y1="8.89" x2="8.255" y2="9.0782" width="0.3" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C1" pad="2"/>
@@ -2372,6 +2376,28 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,f2ddce7fd1ecd050"/>
+<approved hash="4,1,ed8ccfa4cedbcf53"/>
+<approved hash="4,1,dd379db720098925"/>
+<approved hash="4,1,5dafadf2ae1b322e"/>
+<approved hash="4,1,ed63ce8dce2acf8c"/>
+<approved hash="4,1,352963d25cad16d9"/>
+<approved hash="4,1,2a2e63d35d8c09f2"/>
+<approved hash="4,1,35e863135c9e1628"/>
+<approved hash="4,1,352963d25cad16d9"/>
+<approved hash="4,1,25fcc83a79f85174"/>
+<approved hash="4,1,0bf8e5da760ac63e"/>
+<approved hash="4,1,ed8ccfe4ce9bcf53"/>
+<approved hash="4,16,ed63ce8dce2acf8c"/>
+<approved hash="4,16,f2ddce7fd1ecd050"/>
+<approved hash="4,16,35e863135c9e1628"/>
+<approved hash="4,16,2a2e63d35d8c09f2"/>
+<approved hash="4,16,dd379db720098925"/>
+<approved hash="4,16,5dafadf2ae1b322e"/>
+<approved hash="4,16,0bf8e5da760ac63e"/>
+<approved hash="4,16,25fcc83a79f85174"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
