@@ -9,3 +9,6 @@ https://at.rs-online.com/web/p/mosfet/1246804
 Z-Diode:
 onsemi Zenerdiode 5.1V / 300 mW, SOT-23 3-Pin
 https://at.rs-online.com/web/p/zener-dioden/5450630
+
+SMA Connector 50Ohm
+https://at.rs-online.com/web/p/koaxial-steckverbinder/8858778
