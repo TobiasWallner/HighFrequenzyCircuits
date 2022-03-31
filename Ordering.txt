@@ -1,3 +1,55 @@
+Resistors
+=========
+
+
+Coils:
+======
+ * L 
+	Murata LQW15AN_00 Drosselspule mit Ferrit-Kern, 72 nH / ±2%, 2.5GHz 135mA, 0402 (1005M) Gehäuse, 2.1 Ohm
+	https://at.rs-online.com/web/p/smd-induktivitat/7855169
+
+Capazitors:
+===========
+
+ * C1, C2 1.5pF (Frequenzy Specific)
+	KYOCERA AVX, U, SMD MLCC, Vielschicht Keramikkondensator C0G, 1.5pF ±0.1pF / 200V dc, Gehäuse 0603 (1608M)
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/6983986
+	--------
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/1704761
+	--------
+	ML03V11R5BAT2A
+	Keramikvielschichtkondensator, SMD, Hi-Q®, 1.5 pF, 250 V, 0603 [Metrisch: 1608], ± 0.1pF, ML
+	https://at.farnell.com/avx/ml03v11r5bat2a/kondensator-1-5pf-250v-0603/dp/2252658
+	
+ * C3 15pF (Frequenzy Specific)
+	KYOCERA AVX, U, SMD MLCC, Vielschicht Keramikkondensator C0G, 15pF ±2% / 200V dc, Gehäuse 0805 (2012M)
+	https://docs.rs-online.com/a01c/0900766b80def273.pdf
+	
+	
+ * C6 0.3pF (Frequenzy Specific)
+	ML03V10R3AAT2A
+	Keramikvielschichtkondensator, SMD, Hi-Q®, 0.3 pF, 250 V, 0603 [Metrisch: 1608], ± 0.05pF, ML
+	https://at.farnell.com/avx/ml03v10r3aat2a/kondensator-0-3pf-250v-0603/dp/2252672
+	
+ * C4 100p (Can be any other cheap one)
+	KYOCERA AVX, U, SMD MLCC, Vielschicht Keramikkondensator C0G, 100pF ±5% / 200V dc, Gehäuse 0805 (2012M)
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/6984036
+
+ * C5 1n (Can be any other cheap one)
+	KEMET, C, SMD MLCC, Vielschicht Keramikkondensator X7R, 1nF ±10% / 50V dc, Gehäuse 0603 (1608M)
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/2644551
+ 
+ * 2,2µF (Can be any other cheap one)
+	Murata, GCM, SMD MLCC, Vielschicht Keramikkondensator X7R, 2.2μF ±10% / 10V dc, Gehäuse 0805 (2012M), AEC-Q200
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/8202914
+	
+ * 22nF (Can be any other cheap one)
+	Murata, GCM, SMD MLCC, Vielschicht Keramikkondensator X7R, 22nF ±10% / 100V dc, Gehäuse 0603 (1608M), AEC-Q200
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/7235010
+ 
+SMA Connector 50Ohm
+https://at.rs-online.com/web/p/koaxial-steckverbinder/8858778
+
 Schottky-Diode:
 Nexperia Diode Schottky, SMD, Einfach, 70V / 70mA, SOT-323 (SC-70), 3-Pin
 https://at.rs-online.com/web/p/schottky-dioden-und-gleichrichter/7920778
@@ -10,5 +62,3 @@ Z-Diode:
 onsemi Zenerdiode 5.1V / 300 mW, SOT-23 3-Pin
 https://at.rs-online.com/web/p/zener-dioden/5450630
 
-SMA Connector 50Ohm
-https://at.rs-online.com/web/p/koaxial-steckverbinder/8858778

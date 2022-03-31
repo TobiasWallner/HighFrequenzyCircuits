@@ -1,0 +1,131 @@
+# Veusz saved document (version 3.2.1)
+# Saved at 2022-03-31T15:54:54.793352
+
+AddImportPath(u'D:\\Benutzer\\Tobias\\TUWien\\Praktische Realisierung von Hochfrequenzschaltungen\\HighFrequenzyCircuits\\Documentation')
+ImportString(u'Impedanze(numeric)','''
+4.487000e+01
+4.533000e+01
+4.580000e+01
+4.630000e+01
+4.680000e+01
+4.730000e+01
+4.787000e+01
+4.844000e+01
+4.902000e+01
+4.963000e+01
+5.020000e+01
+5.090000e+01
+5.158000e+01
+5.228000e+01
+5.302000e+01
+5.379000e+01
+5.459000e+01
+5.543000e+01
+5.630000e+01
+5.723000e+01
+5.819000e+01
+''')
+ImportString(u'`\\epsilon_r`(numeric)','''
+4.500000e+00
+4.400000e+00
+4.300000e+00
+4.200000e+00
+4.100000e+00
+4.000000e+00
+3.900000e+00
+3.800000e+00
+3.700000e+00
+3.600000e+00
+3.500000e+00
+3.400000e+00
+3.200000e+00
+3.100000e+00
+3.000000e+00
+2.900000e+00
+2.800000e+00
+2.700000e+00
+2.600000e+00
+2.500000e+00
+''')
+Set('colorTheme', u'default-latest')
+Set('StyleSheet/axis-function/autoRange', u'next-tick')
+Add('page', name=u'page1', autoadd=False)
+To(u'page1')
+Set('width', u'22.673cm')
+Set('height', u'15cm')
+Add('grid', name=u'grid1', autoadd=False)
+To(u'grid1')
+Add('graph', name=u'graph1', autoadd=False)
+To(u'graph1')
+Set('leftMargin', u'0.324cm')
+Set('rightMargin', u'1.576cm')
+Set('topMargin', u'0.2cm')
+Set('bottomMargin', u'1.7cm')
+Add('axis', name=u'x', autoadd=False)
+To(u'x')
+Set('label', u'\\epsilon_r')
+Set('Label/size', u'16pt')
+To('..')
+Add('axis', name=u'y', autoadd=False)
+To(u'y')
+Set('label', u'Impedance Z in \\Omega')
+Set('direction', u'vertical')
+Set('Label/size', u'16pt')
+To('..')
+Add('xy', name=u'xy1', autoadd=False)
+To(u'xy1')
+Set('xData', u'\\epsilon_r')
+Set('yData', u'Impedanze')
+To('..')
+To('..')
+Add('graph', name=u'graph2', autoadd=False)
+To(u'graph2')
+Set('leftMargin', u'1.489cm')
+Set('rightMargin', u'0.411cm')
+Set('topMargin', u'0.201cm')
+Set('bottomMargin', u'1.699cm')
+Add('axis', name=u'x', autoadd=False)
+To(u'x')
+Set('label', u'\\epsilon_r')
+Set('Label/size', u'16pt')
+To('..')
+Add('axis', name=u'y', autoadd=False)
+To(u'y')
+Set('label', u'Reflectance \\Gamma in \\textperthousand')
+Set('datascale', 1000.0)
+Set('direction', u'vertical')
+Set('Label/size', u'16pt')
+To('..')
+Add('xy', name=u'xy2', autoadd=False)
+To(u'xy2')
+Set('xData', u'\\epsilon_r')
+Set('yData', u'((Impedanze - 50) / (Impedanze + 50)) ** 2')
+To('..')
+Add('label', name=u'label1', autoadd=False)
+To(u'label1')
+Set('label', u'50 \\Omega connector')
+Set('xPos', [0.543])
+Set('yPos', [0.87])
+Set('Border/hide', False)
+To('..')
+To('..')
+To('..')
+Add('label', name=u'label1', autoadd=False)
+To(u'label1')
+Set('label', u'0.508mm PCB height; 2.45GHz; 1.147mm ... 45.18mil tracewidth ')
+Set('xPos', [0.275])
+Set('yPos', [0.072])
+To('..')
+Add('label', name=u'label2', autoadd=False)
+To(u'label2')
+Set('label', u'Microstrip line characteristics')
+Set('xPos', [0.402])
+Set('yPos', [0.108])
+To('..')
+Add('label', name=u'label3', autoadd=False)
+To(u'label3')
+Set('label', u'Material RO4003C')
+Set('xPos', [0.454])
+Set('yPos', [0.036])
+To('..')
+To('..')
