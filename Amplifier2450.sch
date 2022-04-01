@@ -17576,6 +17576,18 @@ frequency ranges </text>
 <text x="187.96" y="78.74" size="1.778" layer="91">C3 is only used for DC-Decoupling.
 Select so that the Resonance where the
 impedance gets to zero is at the designfrequenzy</text>
+<text x="147.32" y="30.48" size="1.778" layer="91">C1, C2, C3, C6
+Selected so that their resonance frequenzy
+is far above the operating frequenzy</text>
+<text x="121.92" y="76.2" size="1.778" layer="91">L1 to prevent RF going up to the supply line.
+It has been selected so that the self resonance 
+of the coil (max impedance) is short above the
+operating frequenzy.
+The coil has an additional resistance of 2.1Ohm
+so at 125mA there is an additional voltage drop of 
+262.5mV</text>
+<text x="15.24" y="149.86" size="1.778" layer="91">The input voltage has to be 
+5V plus the voltage drop of the coil</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="144.78" y="66.04" smashed="yes" rot="R90" grouprefs="AMPLIFIER">

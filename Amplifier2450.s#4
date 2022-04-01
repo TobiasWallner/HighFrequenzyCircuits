@@ -19043,7 +19043,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device="" value="+V"/>
 <part name="U$2" library="HMC789ST89E" deviceset="HMC789ST89E" device=""/>
-<part name="L1" library="own_htl3r-discrete-1" deviceset="L_US_" device="" value="15n"/>
+<part name="L1" library="own_htl3r-discrete-1" deviceset="L_US_" device="" value="---"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
