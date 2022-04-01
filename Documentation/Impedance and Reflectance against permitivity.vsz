@@ -1,5 +1,5 @@
 # Veusz saved document (version 3.2.1)
-# Saved at 2022-03-31T15:54:54.793352
+# Saved at 2022-04-01T06:19:16.740077
 
 AddImportPath(u'D:\\Benutzer\\Tobias\\TUWien\\Praktische Realisierung von Hochfrequenzschaltungen\\HighFrequenzyCircuits\\Documentation')
 ImportString(u'Impedanze(numeric)','''
@@ -38,6 +38,7 @@ ImportString(u'`\\epsilon_r`(numeric)','''
 3.600000e+00
 3.500000e+00
 3.400000e+00
+3.300000e+00
 3.200000e+00
 3.100000e+00
 3.000000e+00
