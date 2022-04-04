@@ -64,18 +64,15 @@
 <wire x1="31.8772" y1="0" x2="31.8772" y2="31.1304" width="0" layer="20"/>
 <wire x1="31.8772" y1="31.1304" x2="-1.2446" y2="31.105" width="0" layer="20"/>
 <wire x1="-1.2446" y1="31.105" x2="-1.2446" y2="0" width="0" layer="20"/>
-<text x="33.02" y="34.29" size="0.8128" layer="48">Starpoint of the
-power planes/lines
-to minimize potential loop area.</text>
 <text x="7.0866" y="-3.6322" size="0.508" layer="48"></text>
 <text x="32.8676" y="30.1244" size="0.762" layer="48">Multiple Vias to ground
 to reduce resistance and inductance of 
 the vias</text>
 <text x="33.02" y="25.4" size="0.762" layer="48">* Power line width at 12mil resulting Impedance is ~98Ohm
 * Power Reflectance to the signal line is about 10% = ((Z_s - Z_p) / (Z_s - Z_p))^2
-* Heat increase of the powerline at 130mA will be less than 2K</text>
+* Heat increase of the powerline at 130mA will be less than 2 Kelvin</text>
 <dimension x1="-1.2446" y1="0" x2="31.8772" y2="0" x3="15.3163" y3="-5.08" textsize="0.762" layer="47"/>
-<text x="33.02" y="38.735" size="0.762" layer="48">Have power lines close to each other to 
+<text x="33.02" y="34.29" size="0.762" layer="48">Have power lines close to each other to 
 reduce noise captured in their spanning area</text>
 <text x="33.02" y="22.86" size="0.762" layer="48">Spread Vias around C6 for sliding</text>
 <text x="33.02" y="17.145" size="0.762" layer="48">Multiple vias on C4 and C5, event though they
@@ -87,6 +84,11 @@ values</text>
 <text x="33.02" y="0" size="0.762" layer="48">Disable thermals around pads
 and vias, because they would
 introduce additional small wire inductors.</text>
+<text x="21.59" y="27.305" size="1.016" layer="1">Juan Carlos
+Tobias Wallner</text>
+<text x="8.0772" y="27.305" size="1.778" layer="1">V+</text>
+<text x="7.5438" y="21.6662" size="1.778" layer="1">GND</text>
+<text x="9.2456" y="1.3208" size="1.016" layer="1">2.54GHz Amplifier</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1536,7 +1538,7 @@ design rules under a new name.</description>
 <attribute name="RM" value="5.12" x="46.0756" y="58.7248" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$2" library="HMC789ST89E" package="SOT89" value="HMC789ST89E" x="13.9446" y="11.1252" smashed="yes">
-<attribute name="NAME" x="11.4046" y="14.3002" size="1.27" layer="25"/>
+<attribute name="NAME" x="12.6746" y="6.6802" size="1.27" layer="25"/>
 </element>
 <element name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" value="SMA-142-0701-801/806" x="-1.27" y="8.89" smashed="yes">
 <attribute name="MF" value="JOHNSON COMPONENTS" x="40.64" y="-1.27" size="1.778" layer="27" display="off"/>
@@ -1722,17 +1724,18 @@ design rules under a new name.</description>
 <contactref element="C13" pad="1"/>
 <contactref element="U$1" pad="P$2"/>
 <wire x1="17.3854" y1="20.533609375" x2="17.3092" y2="20.574" width="0.508" layer="1"/>
-<wire x1="16.4084" y1="23.9776" x2="9.6012" y2="23.9776" width="0.3048" layer="1"/>
-<wire x1="9.6012" y1="23.9776" x2="8.1026" y2="25.4762" width="0.3048" layer="1"/>
-<wire x1="16.4084" y1="23.9776" x2="17.3482" y2="23.0378" width="0.3048" layer="1"/>
+<wire x1="15.748" y1="24.638" x2="8.9408" y2="24.638" width="0.3048" layer="1"/>
+<wire x1="8.9408" y1="24.638" x2="8.1026" y2="25.4762" width="0.3048" layer="1"/>
+<wire x1="15.748" y1="24.638" x2="17.3482" y2="23.0378" width="0.3048" layer="1"/>
 <wire x1="17.3482" y1="23.0378" x2="17.3482" y2="22.6958" width="0.3048" layer="1"/>
 <wire x1="17.4346" y1="22.6822" x2="17.3482" y2="22.6958" width="0.3048" layer="1"/>
 <wire x1="17.4346" y1="22.6822" x2="17.3854" y2="22.6314" width="0.3048" layer="1"/>
 <wire x1="17.3854" y1="22.6314" x2="17.3854" y2="20.533609375" width="0.3048" layer="1"/>
 <via x="8.1026" y="25.4762" extent="1-16" drill="0.5"/>
-<wire x1="2.8956" y1="28.2448" x2="2.8956" y2="26.3144" width="0.3048" layer="16"/>
-<wire x1="3.7338" y1="25.4762" x2="2.8956" y2="26.3144" width="0.3048" layer="16"/>
-<wire x1="8.1026" y1="25.4762" x2="3.7338" y2="25.4762" width="0.3048" layer="16"/>
+<wire x1="2.8956" y1="28.2448" x2="2.8956" y2="25.7556" width="0.3048" layer="16"/>
+<wire x1="3.2258" y1="25.4254" x2="2.8956" y2="25.7556" width="0.3048" layer="16"/>
+<wire x1="8.1026" y1="25.4762" x2="8.0518" y2="25.4254" width="0.3048" layer="16"/>
+<wire x1="8.0518" y1="25.4254" x2="3.2258" y2="25.4254" width="0.3048" layer="16"/>
 <wire x1="17.3092" y1="20.574" x2="17.3854" y2="20.4978" width="0.3048" layer="1"/>
 <wire x1="17.3854" y1="20.4978" x2="17.3854" y2="17.7546" width="0.3048" layer="1"/>
 <wire x1="17.3854" y1="17.7546" x2="17.3854" y2="15.2418" width="0.3048" layer="1"/>
