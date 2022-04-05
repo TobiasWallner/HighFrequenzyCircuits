@@ -5,9 +5,6 @@ Resistors-Jumpers
 Coils:
 ======
  * L 
-	Murata LQW15AN_00 Drosselspule mit Ferrit-Kern, 72 nH / ±2%, 2.5GHz 135mA, 0402 (1005M) Gehäuse, 2.1 Ohm
-	https://at.rs-online.com/web/p/smd-induktivitat/7855169
-	
 	Or the following one because it allows more current but has slightly less inductance:
 	Murata LQW15AN_00 Drosselspule mit Ferrit-Kern, 56 nH / ±5%, 8GHz 200mA, 0402 (1005M) Gehäuse
 	https://at.rs-online.com/web/p/smd-induktivitat/8119641
@@ -18,17 +15,10 @@ Capazitors:
  * C1, C2 1.5pF (Frequenzy Specific)
 	KYOCERA AVX, U, SMD MLCC, Vielschicht Keramikkondensator C0G, 1.5pF ±0.1pF / 200V dc, Gehäuse 0603 (1608M)
 	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/6983986
-	--------
-	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/1704761
-	--------
-	ML03V11R5BAT2A
-	Keramikvielschichtkondensator, SMD, Hi-Q®, 1.5 pF, 250 V, 0603 [Metrisch: 1608], ± 0.1pF, ML
-	https://at.farnell.com/avx/ml03v11r5bat2a/kondensator-1-5pf-250v-0603/dp/2252658
 	
  * C3 15pF (Frequenzy Specific)
 	KYOCERA AVX, U, SMD MLCC, Vielschicht Keramikkondensator C0G, 15pF ±2% / 200V dc, Gehäuse 0805 (2012M)
-	https://docs.rs-online.com/a01c/0900766b80def273.pdf
-	
+	https://at.rs-online.com/web/p/keramik-vielschichtkondensatoren/6984042
 	
  * C6 0.3pF (Frequenzy Specific)
 	ML03V10R3AAT2A
